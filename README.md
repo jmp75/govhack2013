@@ -34,5 +34,5 @@ plot(capitalGain[[1]])
 Further work, ideas post GovHack
 ---------------
 
-* Unleash new ways for the masses to make their own judgment on real/effective tax policies? Who knows.
+* Unleash new ways for the masses to make their own judgment on real/effective tax rates? Who knows.
 * Demo at the useR2013 conference!

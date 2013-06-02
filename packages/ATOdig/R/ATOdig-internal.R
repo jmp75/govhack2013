@@ -35,6 +35,7 @@ extractSeries <- function(d) {
   }
   
   result <- lapply(1:length(catIndex), FUN=getDataCategory)
+  names(result) <- d[catIndex,1]
   result
 }
 

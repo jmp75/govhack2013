@@ -25,6 +25,10 @@ library(rClr)
 setRDotNet(TRUE)
 clrLoadAssembly('c:/src/ATO.Dig/ATO.Dig.Data/bin/Debug/ATO.Dig.Data.dll')
 d <- clrCallStatic('ATO.Dig.Data.AtoExcelAccess', 'GetSpreadsheet', as.integer(2), "C:/tmp/2010-11-datasets/2010-11 datasets/cor00345977_2011CGT1.xls")
+library(ATOdig)
+capitalGain <- ATOdig::extractSeries(d)
+names(capitalGain) # categories
+plot(capitalGain[[1]])
 ```
 
 Further work, ideas post GovHack

@@ -1,0 +1,18 @@
+Package: ATOdig
+Type: Package
+Title: Accessing the Excel-based Australian Tax Office data from R
+Version: 0.1-5
+Date: 2013-06-02
+Authors@R: c( person("Jean-Michel", "Perraud", email =
+    "jean-michel.perraud@csiro.au", role = c("aut", "cre")))
+Description: Accessing the Excel-based Australian Tax Office data from R
+VignetteBuilder: knitr
+Suggests:
+    knitr
+URL: https://github.com/jmp75/govhack2013
+License: LGPL-2
+Depends:
+    R (>= 3.0.0)
+Collate:
+    'ATOdig-internal.R'
+    'ATOdig-package.R'
